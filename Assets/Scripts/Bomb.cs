@@ -12,7 +12,7 @@ public class Bomb : MonoBehaviour
                 switch (obj.collider.gameObject.tag)
                 {
                     case "Ball":
-                        StartCoroutine(obj.collider.gameObject.GetComponent<Ball>().Pop());
+                        obj.collider.gameObject.GetComponent<Ball>().Pop();
                         break;
                     case "Bomb":
                         obj.collider.gameObject.GetComponent<Bomb>().Pop();

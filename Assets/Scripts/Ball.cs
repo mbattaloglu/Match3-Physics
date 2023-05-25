@@ -6,7 +6,12 @@ public class Ball : MonoBehaviour
 {
     public BallType ballType;
 
-    public IEnumerator Pop()
+    public void Pop()
+    {
+        StartCoroutine(PopCoroutine());
+    }
+
+    private IEnumerator PopCoroutine()
     {
         GetComponentInChildren<ParticleSystem>().Play();
         Destroy(GetComponent<Collider2D>());

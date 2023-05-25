@@ -39,7 +39,7 @@ public class Board : MonoBehaviour
         {
             foreach (Ball connectedBall in connectedBalls)
             {
-                StartCoroutine(connectedBall.Pop());
+                connectedBall.Pop();
             }
         }
         if (connectedBalls.Count >= 3)

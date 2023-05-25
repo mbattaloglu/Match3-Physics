@@ -12,7 +12,7 @@ public class Ball : MonoBehaviour
         Destroy(GetComponent<Collider2D>());
         Destroy(GetComponentInChildren<SpriteRenderer>());
         Destroy(GetComponent<Rigidbody2D>());
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
 

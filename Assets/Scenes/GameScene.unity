@@ -278,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6395e17bc624947a2f459b710ea69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 9121789392424127526, guid: 0fe34b2adc22021489c2cce4e26885c8, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,8 +618,11 @@ MonoBehaviour:
   - {fileID: 5198277039577820661, guid: 9b2dcb50bc4e3d049869b44bf5448ff2, type: 3}
   - {fileID: 4952194396481727417, guid: 8a55c8375a998c343b0f0942b852b16c, type: 3}
   - {fileID: 8959654943240532721, guid: 5141d81ac5314d84aaa347805dc3b147, type: 3}
-  amount: 100
-  timer: 0.01
+  - {fileID: 1849041767017075160, guid: 2e8361318a7b5484daed44bd16a27465, type: 3}
+  - {fileID: 1020975386952739490, guid: 95329bbfccf21e14d85fbebc8d18d4f3, type: 3}
+  - {fileID: 1104567190385100586, guid: 2bbbbfc1ed039924bb2471525f302833, type: 3}
+  amount: 150
+  timer: 0
   board: {fileID: 487341419}
 --- !u!4 &1255020450
 Transform:
